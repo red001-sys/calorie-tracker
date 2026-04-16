@@ -21,6 +21,9 @@ jobs:
       - name: 📦 Instalar dependências
         run: npm install
 
+      - name: ⚡ Instalar Capacitor CLI
+        run: npm install @capacitor/cli
+
       - name: 🏗️ Build do projeto (React/Vite)
         run: npm run build
 
